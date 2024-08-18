@@ -1,8 +1,10 @@
-FeatureManagement & Feature Flag 的測試用專案
+這個 Repo 是 FeatureManagement & Feature Flag 的測試用專案。以下將備份部落格文章內容。
 
 > 筆記內容同步發布至 Blog 好讀版：[.Net: 使用 FeatureManagement 套件來實作 Feature Flag 功能切換吧 - 伊果的沒人看筆記本](https://igouist.github.io/post/2024/08/dotnet-feature-flag-and-feature-management/)
 
 ---
+
+# .Net: 使用 FeatureManagement 套件來實作 Feature Flag 功能切換吧
 
 ![Image](https://i.imgur.com/926KRip.png)
 
@@ -80,8 +82,6 @@ else
 
 至於後來開關越埋越多，系統服務七十二變。工程師老孫被迫跟著唐經理去聽研討會，好好學習怎麼管理這些 Feature Flag。還弄了些儀表板、過期時間等等，那又是另一個故事了…
 
----
-
 故事說到這裡，雖然例子粗暴一點，但朋朋們應該對 Feature Flag 在幹嘛有點了解了（吧？）
 
 如果想要進一步認識 Feature Flag，這邊也準備了一些推薦閱讀。
@@ -97,13 +97,9 @@ PM 朋朋們又是怎麼運用 Feature Flag 的……
 - [產品上線規劃：Beta Release、Feature Flags 實作經驗與工具分享 | by Anne Hsiao | 3PM LAB 產品三眼怪實驗室 | Medium](https://medium.com/3pm-lab/product-beta-release-planning-and-feature-flags-implementation-1f7673007d23)
 - [Introduction to Feature Toggles and Implementation Best Practices - Darren Sim](https://darrensim.com/2018/introduction-to-feature-toggles-and-implementation-best-practices/)
 
----
-
 > 補充：雖然 Feature Flag 這麼香，但如果開關沒有好好管理，<br/>不小心開到不該開的程式碼邏輯會發生什麼事呢？
 >
 > 泡杯茶，看看實例吧：[Knightmare: A DevOps Cautionary Tale – Doug Seven](https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/)
-
----
 
 > 補充：Feature Toggle 常常跟主幹開發（Trunk-based Development）一起出現？
 > 
